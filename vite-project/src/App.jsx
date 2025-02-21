@@ -16,7 +16,7 @@ function App() {
     { value: "highest_alphabet", label: "Highest Alphabet" },
   ];
 
-  e
+  
   const handleChange = (event) => {
     setJsonInput(event.target.value);
   };
