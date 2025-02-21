@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import Select from "react-select";
 
-const API_URL = "https://bhfl-backend-302zsipj3-archisman-das-projects-8e9626b1.vercel.app"; 
+const API_URL = "https://bhfl-backend-p4q9.onrender.com/bfhl"; 
 
 function App() {
   const [jsonInput, setJsonInput] = useState("");
