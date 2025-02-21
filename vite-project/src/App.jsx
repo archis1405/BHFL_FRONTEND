@@ -9,19 +9,19 @@ function App() {
   const [responseData, setResponseData] = useState(null);
   const [selectedOptions, setSelectedOptions] = useState([]);
 
-  // Dropdown options
+  
   const options = [
     { value: "alphabets", label: "Alphabets" },
     { value: "numbers", label: "Numbers" },
     { value: "highest_alphabet", label: "Highest Alphabet" },
   ];
 
-  // Handle JSON input change
+  e
   const handleChange = (event) => {
     setJsonInput(event.target.value);
   };
 
-  // Validate JSON and send API request
+  
   const handleSubmit = async () => {
     try {
       const parsedInput = JSON.parse(jsonInput);
@@ -37,7 +37,7 @@ function App() {
     }
   };
 
-  // Render selected response fields
+  
   const getFilteredData = () => {
     if (!responseData) return null;
 
@@ -52,7 +52,7 @@ function App() {
     <div className="container">
       <h1>Data Processing App</h1>
       
-      {/* JSON Input Field */}
+      
       <textarea
         rows="5"
         placeholder='Enter JSON (e.g. {"data": ["A", "1", "B"]})'
